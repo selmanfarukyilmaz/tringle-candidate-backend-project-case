@@ -21,7 +21,7 @@ API Framework: FLASK
 
 **GENERAL USAGE**
 
-1- Run main.py
+1- Run python3 main.py
 
 2- For creating new account you should send a POST request to "http://127.0.0.1:5000/account" with payload which is json format.
 
