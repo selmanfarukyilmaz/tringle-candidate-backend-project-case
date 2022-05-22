@@ -5,7 +5,7 @@ Tringle Candidate Backend Project
 **Project Description**
 
 The project created with REST API architecture which performs 6 banking transactions.
-Requests to the API returns a JSON file and status code if it provided with necessary validations.
+Sending requests to the API returns a JSON file and status code if it provided with necessary validations.
 If it fails validations, it returns the reason and the status code.
 API developed with FLASK framework.
 The project includes unit tests of banking transactions.
@@ -25,15 +25,15 @@ API Framework: FLASK
 
 2- For creating new account you should send a POST request to "http://127.0.0.1:5000/account" with payload which is json format.
 
-3- For deposit money to your you should POST request to "http://127.0.0.1:5000/deposit" with json with payload which is json format.
+3- For deposit money to your you should send POST request to "http://127.0.0.1:5000/deposit" with json with payload which is json format.
 
-4- For withdraw money from account you should POST request to "http://127.0.0.1:5000/withdraw" with json with payload which is json format.
+4- For withdraw money from account you should send POST request to "http://127.0.0.1:5000/withdraw" with json with payload which is json format.
 
-5- For payment from account you should POST request to "http://127.0.0.1:5000/withdraw" with json with payload which is json format.
+5- For payment from account you should send POST request to "http://127.0.0.1:5000/withdraw" with json with payload which is json format.
 
-6- For access an account's information you should GET request to "http://127.0.0.1:5000/account/accountNumber/?accountNumber={ACCOUNT_NUMBER_HERE}"
+6- For access an account's information you should send GET request to "http://127.0.0.1:5000/account/accountNumber/?accountNumber={ACCOUNT_NUMBER_HERE}"
 
-7- For access an account's transaction history you should GET request to "http://127.0.0.1:5000/accounting/?account_number={ACCOUNT_NUMBER_HERE}"
+7- For access an account's transaction history you should send GET request to "http://127.0.0.1:5000/accounting/?account_number={ACCOUNT_NUMBER_HERE}"
 
 
 **RULES**
@@ -46,7 +46,7 @@ API Framework: FLASK
 
 4- Deposit and withdraw operations only supported for individual accounts.
 
-5- The payment operation can be made from the personal account to the corporate account.
+5- The payment operation can be made from the individual to the corporate account.
 
 
 **JSON SCHEMAS for POST Request**
