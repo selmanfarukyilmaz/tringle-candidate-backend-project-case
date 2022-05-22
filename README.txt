@@ -77,7 +77,7 @@ API Framework: FLASK
 
 **DOCKER USAGE**
 
-If you don't have docker you should first install docker with "pip install docker"
+If you don't have docker you should first install docker with "sudo snap install docker"
 
 1- Open terminal
 
